@@ -71,7 +71,7 @@ const generateId = () => {
   return Math.floor(Math.random() * Math.floor(Number.MAX_SAFE_INTEGER));
 }
 
-// ADD ONE NOTE
+// ADD ONE PERSON
 app.post('/api/persons', (request, response) => {
   const body = request.body
 
