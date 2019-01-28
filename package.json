@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-hy-2019-osa-3",
+  "version": "1.0.0",
+  "description": "Oma repo osan 3 tehtäviä varten",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majormalfunk/Fullstack-hy-2019-Osa-3.git"
+  },
+  "author": "Jaakko Vilenius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/majormalfunk/Fullstack-hy-2019-Osa-3/issues"
+  },
+  "homepage": "https://github.com/majormalfunk/Fullstack-hy-2019-Osa-3#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
