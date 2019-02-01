@@ -8,6 +8,7 @@ morgan.token('type', function (req, res) { return JSON.stringify(req.body) });
 var morganFormat = ':method :url :status :res[content-length] - :response-time ms :type';
 
 app.use(cors())
+app.use(express.static('build'))
 app.use(bodyParser.json())
 app.use(morgan(morganFormat))
 
