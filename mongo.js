@@ -30,12 +30,12 @@ if (args.length === 3) {
     name: `${args[3]}`,
     number: `${args[4]}`
   })
-  console.log(`Lisätään ${person.name} numero ${person.number} luetteloon`);
-  person.save().then(response => {
-    mongoose.connection.close();
+  console.log(`Lisätään ${person.name} numero ${person.number} luetteloon`)
+  person.save().then(() => {
+    mongoose.connection.close()
   })
 } else {
   console.log('Virheelliset parametrit')
-  mongoose.connection.close();
+  mongoose.connection.close()
 }
 
